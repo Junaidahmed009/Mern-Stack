@@ -1,0 +1,21 @@
+
+# Ignore node_modules in both client and server
+client/node_modules/
+server/node_modules/
+
+# Ignore build/dist folders
+client/build/
+server/dist/
+
+# Ignore environment files
+client/.env
+server/.env
+.env         # in case you use a single .env at root
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
